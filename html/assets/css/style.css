@@ -370,14 +370,21 @@ body:hover {
 
 .ht_features {
   background-color: #0b163f !important;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.ht_about_wrap .ht_features h2{
+.ht_about_wrap .ht_features h2 {
   color: #fff;
-  margin: 0 10;
-
+  font-weight: 600;
+  line-height: 1.2;
+  width: 315px;
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
-.ht_about_wrap .ht_features p{
-  color: #fff;
+.ht_about_wrap .ht_features p {
+  color: #d9d9d9;
+  width: 657px;
+  margin: 0 auto;
 }
-
