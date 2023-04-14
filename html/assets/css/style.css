@@ -365,6 +365,9 @@ body:hover {
   margin: 22px 12px;
 }
 
-.ht_icon_box_icons  {
-  
+.ht_icon_box_icons {
+}
+
+.ht_features {
+  background-color: #0b163f !important;
 }
