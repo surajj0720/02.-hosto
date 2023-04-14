@@ -27,7 +27,12 @@ Version: 1.0.0
                     items:1
                 }
             }
-        })
+        });
+
+        // Fancybox Video Popup
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+          });
 
     });
 })();

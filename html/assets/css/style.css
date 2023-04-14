@@ -134,6 +134,77 @@ body:hover {
   color: #ffffff;
   background-color: #0044e3;
 }
+/*---- Heading CSS Start ----*/
+.ht_heading_wrap, .ht_heading_center_wrap, .ht_heading_right_wrap{
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.ht_heading_center_wrap{
+  text-align: center;
+  align-items: center;
+  width: 770px;
+  max-width: 100%;
+}
+.ht_heading_right_wrap{
+  text-align: right;
+  align-items: flex-end;
+}
+.ht_heading_wrap h2, .ht_heading_center_wrap h2, .ht_heading_right_wrap h2{
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 0;
+  color: #0b163f;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.ht_heading_wrap h2 span, .ht_heading_center_wrap h2 span, .ht_heading_right_wrap h2 span{
+  color: #56B547;
+}
+.ht_heading_wrap p, .ht_heading_center_wrap p, .ht_heading_right_wrap p{
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 500px;
+  max-width: 100%;
+}
+.ht_heading_wrap h5, .ht_heading_right_wrap h5, .ht_heading_center_wrap h5{
+  display: flex;
+  width: fit-content;
+  position: relative;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #175cff;
+  font-weight: 700;
+}
+.ht_heading_wrap h5::after, .ht_heading_right_wrap h5::after, .ht_heading_center_wrap h5::after{
+  content: "";
+  position: absolute;
+  background-color: #56B547;
+  width: 30px;
+  height: 5px;
+  left: auto;
+  right: -40px;
+}
+.ht_heading_right_wrap h5::after{
+  left: auto;
+  right: -40px;
+}
+.ht_heading_center_wrap h5::after, .ht_heading_center_wrap h5::before{
+  content: "";
+  position: absolute;
+  background-color: #56B547;
+  width: 30px;
+  height: 5px;
+  left: -40px;
+}
+.ht_heading_center_wrap h5::before{
+  right: -40px;
+  left: auto;
+}
 /*---------- Header CSS Start ----------*/
 .header {
   box-shadow: 0 10px 30px #0000001a;
@@ -150,9 +221,26 @@ body:hover {
 .ht_menu li a {
   text-transform: uppercase;
   font-weight: 500;
+  position: relative;
+  z-index: 1;
+  padding: 10px 0;
 }
 .ht_menu li a:hover {
   color: #2e60d8;
+}
+.ht_menu li a::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  background-color: #175cff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.ht_menu li a:hover::after {
+  width: 100%;
 }
 .signin_link {
   text-transform: capitalize;
@@ -176,8 +264,7 @@ body:hover {
   align-items: center;
   justify-content: center;
 }
-.ht_slidebox img {
-}
+.ht_slidebox>img {}
 .ht_slidebox_info {
   display: flex;
   width: 100%;
@@ -186,7 +273,7 @@ body:hover {
   justify-content: center;
   align-items: flex-start;
 }
-.ht_slidebox_info img {
+.ht_slidebox_info>img {
   border-radius: 60px 10px;
 }
 .ht_slidebox_info h2 {
@@ -198,11 +285,44 @@ body:hover {
   font-size: 20px;
   margin-bottom: 50px;
 }
-
 .ht_slider_wrap {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
+.ht_about_wrap{
+  display: flex;
+  width: 100%;
+  padding: 80px 0;
+}
+.ht_playicon{
+  cursor: pointer;
+}
+.ht_btngrp{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.ht_aboutbox_info ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.ht_aboutbox_info ul li{
+  width: 50%;
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.ht_aboutbox_info ul li p{
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.ht_aboutbox_info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ht_aboutbox_info .ht_btn{
+  margin-top: 30px;
+}
