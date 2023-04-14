@@ -340,3 +340,31 @@ body:hover {
 .ht_aboutbox_info .ht_btn {
   margin-top: 30px;
 }
+.ht_icon_box {
+  display: flex;
+}
+
+.ht_icon_box_icons {
+  display: flex;
+}
+
+.ht_icon_box img {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 10px 20px #0000001a;
+}
+
+.ht_icon_box_icons h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 22px 12px;
+}
+
+.ht_icon_box_icons  {
+  
+}
