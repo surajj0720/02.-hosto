@@ -135,7 +135,9 @@ body:hover {
   background-color: #0044e3;
 }
 /*---- Heading CSS Start ----*/
-.ht_heading_wrap, .ht_heading_center_wrap, .ht_heading_right_wrap{
+.ht_heading_wrap,
+.ht_heading_center_wrap,
+.ht_heading_right_wrap {
   display: flex;
   width: 100%;
   max-width: 100%;
@@ -143,17 +145,19 @@ body:hover {
   flex-direction: column;
   margin-bottom: 25px;
 }
-.ht_heading_center_wrap{
+.ht_heading_center_wrap {
   text-align: center;
   align-items: center;
   width: 770px;
   max-width: 100%;
 }
-.ht_heading_right_wrap{
+.ht_heading_right_wrap {
   text-align: right;
   align-items: flex-end;
 }
-.ht_heading_wrap h2, .ht_heading_center_wrap h2, .ht_heading_right_wrap h2{
+.ht_heading_wrap h2,
+.ht_heading_center_wrap h2,
+.ht_heading_right_wrap h2 {
   font-size: 45px;
   line-height: 55px;
   margin-bottom: 0;
@@ -161,16 +165,22 @@ body:hover {
   font-weight: 700;
   text-transform: capitalize;
 }
-.ht_heading_wrap h2 span, .ht_heading_center_wrap h2 span, .ht_heading_right_wrap h2 span{
-  color: #56B547;
+.ht_heading_wrap h2 span,
+.ht_heading_center_wrap h2 span,
+.ht_heading_right_wrap h2 span {
+  color: #56b547;
 }
-.ht_heading_wrap p, .ht_heading_center_wrap p, .ht_heading_right_wrap p{
+.ht_heading_wrap p,
+.ht_heading_center_wrap p,
+.ht_heading_right_wrap p {
   margin-top: 20px;
   margin-bottom: 0;
   width: 500px;
   max-width: 100%;
 }
-.ht_heading_wrap h5, .ht_heading_right_wrap h5, .ht_heading_center_wrap h5{
+.ht_heading_wrap h5,
+.ht_heading_right_wrap h5,
+.ht_heading_center_wrap h5 {
   display: flex;
   width: fit-content;
   position: relative;
@@ -180,28 +190,31 @@ body:hover {
   color: #175cff;
   font-weight: 700;
 }
-.ht_heading_wrap h5::after, .ht_heading_right_wrap h5::after, .ht_heading_center_wrap h5::after{
+.ht_heading_wrap h5::after,
+.ht_heading_right_wrap h5::after,
+.ht_heading_center_wrap h5::after {
   content: "";
   position: absolute;
-  background-color: #56B547;
+  background-color: #56b547;
   width: 30px;
   height: 5px;
   left: auto;
   right: -40px;
 }
-.ht_heading_right_wrap h5::after{
+.ht_heading_right_wrap h5::after {
   left: auto;
   right: -40px;
 }
-.ht_heading_center_wrap h5::after, .ht_heading_center_wrap h5::before{
+.ht_heading_center_wrap h5::after,
+.ht_heading_center_wrap h5::before {
   content: "";
   position: absolute;
-  background-color: #56B547;
+  background-color: #56b547;
   width: 30px;
   height: 5px;
   left: -40px;
 }
-.ht_heading_center_wrap h5::before{
+.ht_heading_center_wrap h5::before {
   right: -40px;
   left: auto;
 }
@@ -264,7 +277,8 @@ body:hover {
   align-items: center;
   justify-content: center;
 }
-.ht_slidebox>img {}
+.ht_slidebox > img {
+}
 .ht_slidebox_info {
   display: flex;
   width: 100%;
@@ -273,7 +287,7 @@ body:hover {
   justify-content: center;
   align-items: flex-start;
 }
-.ht_slidebox_info>img {
+.ht_slidebox_info > img {
   border-radius: 60px 10px;
 }
 .ht_slidebox_info h2 {
@@ -290,39 +304,39 @@ body:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.ht_about_wrap{
+.ht_about_wrap {
   display: flex;
   width: 100%;
   padding: 80px 0;
 }
-.ht_playicon{
+.ht_playicon {
   cursor: pointer;
 }
-.ht_btngrp{
-    display: flex;
-    align-items: center;
-    column-gap: 30px;
+.ht_btngrp {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
 }
-.ht_aboutbox_info ul{
+.ht_aboutbox_info ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
 }
-.ht_aboutbox_info ul li{
+.ht_aboutbox_info ul li {
   width: 50%;
   display: flex;
   margin-bottom: 20px;
   align-items: center;
 }
-.ht_aboutbox_info ul li p{
+.ht_aboutbox_info ul li p {
   margin-bottom: 0;
   margin-left: 10px;
 }
-.ht_aboutbox_info{
+.ht_aboutbox_info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.ht_aboutbox_info .ht_btn{
+.ht_aboutbox_info .ht_btn {
   margin-top: 30px;
 }
