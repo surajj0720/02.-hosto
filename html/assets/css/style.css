@@ -371,3 +371,13 @@ body:hover {
 .ht_features {
   background-color: #0b163f !important;
 }
+
+.ht_about_wrap .ht_features h2{
+  color: #fff;
+  margin: 0 10;
+
+}
+.ht_about_wrap .ht_features p{
+  color: #fff;
+}
+
