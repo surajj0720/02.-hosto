@@ -442,11 +442,11 @@ body:hover {
 }
 
 
-.ht_features_right{
+.ht_features_right {
   margin: auto;
 }
 
-.ht_features_right h2{
+.ht_features_right h2 {
   font-size: 34px;
   color: #fff;
 }
@@ -454,10 +454,10 @@ body:hover {
 .ht_features_right p {
   font-size: 18px;
   color: #d9d9d9;
-  
+
 }
 
-.ht_features_right_all{
+.ht_features_right_all {
   margin: auto;
 }
 
@@ -469,5 +469,13 @@ body:hover {
 
 .ht_features_right li {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
+  width: 50%;
+  margin-bottom: 20px;
+  align-items: center;
+  
+}
+
+.ht_features_right ul li p {
+  margin: 4px 10px;
 }
