@@ -14,9 +14,11 @@ body {
   background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 /*---------- Typography Start ----------*/
 a,
 a:hover,
@@ -28,6 +30,7 @@ button:focus {
   text-decoration: none;
   cursor: pointer;
 }
+
 h1,
 h2,
 h3,
@@ -47,9 +50,11 @@ strong {
   font-weight: 700;
   line-height: 1.1;
 }
+
 img {
   max-width: 100%;
 }
+
 input,
 textarea,
 select,
@@ -69,6 +74,7 @@ a,
   outline: none !important;
   box-shadow: none;
 }
+
 img,
 h1,
 h2,
@@ -101,19 +107,23 @@ a,
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 ul,
 ol {
   margin: 0;
   padding: 0;
 }
+
 li {
   list-style: none;
 }
+
 body.modal-open,
 body:hover {
   -webkit-transition: all 0s;
   transition: all 0s;
 }
+
 /*---- Button CSS Start ----*/
 .ht_btn,
 .ht_btn:focus {
@@ -130,10 +140,12 @@ body:hover {
   align-items: center;
   justify-content: center;
 }
+
 .ht_btn:hover {
   color: #ffffff;
   background-color: #0044e3;
 }
+
 /*---- Heading CSS Start ----*/
 .ht_heading_wrap,
 .ht_heading_center_wrap,
@@ -145,16 +157,19 @@ body:hover {
   flex-direction: column;
   margin-bottom: 25px;
 }
+
 .ht_heading_center_wrap {
   text-align: center;
   align-items: center;
   width: 770px;
   max-width: 100%;
 }
+
 .ht_heading_right_wrap {
   text-align: right;
   align-items: flex-end;
 }
+
 .ht_heading_wrap h2,
 .ht_heading_center_wrap h2,
 .ht_heading_right_wrap h2 {
@@ -165,11 +180,13 @@ body:hover {
   font-weight: 700;
   text-transform: capitalize;
 }
+
 .ht_heading_wrap h2 span,
 .ht_heading_center_wrap h2 span,
 .ht_heading_right_wrap h2 span {
   color: #56b547;
 }
+
 .ht_heading_wrap p,
 .ht_heading_center_wrap p,
 .ht_heading_right_wrap p {
@@ -178,6 +195,7 @@ body:hover {
   width: 500px;
   max-width: 100%;
 }
+
 .ht_heading_wrap h5,
 .ht_heading_right_wrap h5,
 .ht_heading_center_wrap h5 {
@@ -190,6 +208,7 @@ body:hover {
   color: #175cff;
   font-weight: 700;
 }
+
 .ht_heading_wrap h5::after,
 .ht_heading_right_wrap h5::after,
 .ht_heading_center_wrap h5::after {
@@ -201,10 +220,12 @@ body:hover {
   left: auto;
   right: -40px;
 }
+
 .ht_heading_right_wrap h5::after {
   left: auto;
   right: -40px;
 }
+
 .ht_heading_center_wrap h5::after,
 .ht_heading_center_wrap h5::before {
   content: "";
@@ -214,23 +235,27 @@ body:hover {
   height: 5px;
   left: -40px;
 }
+
 .ht_heading_center_wrap h5::before {
   right: -40px;
   left: auto;
 }
+
 /*---------- Header CSS Start ----------*/
 .header {
   box-shadow: 0 10px 30px #0000001a;
   padding: 15px 0;
 }
+
 /*---------- Menu CSS Start ----------*/
 .ht_menu {
   display: flex;
   column-gap: 15px;
   justify-content: center;
 }
-.ht_menu li {
-}
+
+.ht_menu li {}
+
 .ht_menu li a {
   text-transform: uppercase;
   font-weight: 500;
@@ -238,9 +263,11 @@ body:hover {
   z-index: 1;
   padding: 10px 0;
 }
+
 .ht_menu li a:hover {
   color: #2e60d8;
 }
+
 .ht_menu li a::after {
   content: "";
   position: absolute;
@@ -252,33 +279,40 @@ body:hover {
   right: 0;
   margin: 0 auto;
 }
+
 .ht_menu li a:hover::after {
   width: 100%;
 }
+
 .signin_link {
   text-transform: capitalize;
 }
+
 .signin_link:hover {
   color: #0044e3;
 }
+
 .ht_head_btns {
   display: flex;
   align-items: center;
   column-gap: 20px;
 }
+
 /*---------- Menu CSS Start ----------*/
 .ht_slider_wrap {
   background-color: #f0f8ff;
   padding: 150px 0px;
 }
+
 .ht_slidebox {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
-.ht_slidebox > img {
-}
+
+.ht_slidebox>img {}
+
 .ht_slidebox_info {
   display: flex;
   width: 100%;
@@ -287,59 +321,72 @@ body:hover {
   justify-content: center;
   align-items: flex-start;
 }
-.ht_slidebox_info > img {
+
+.ht_slidebox_info>img {
   border-radius: 60px 10px;
 }
+
 .ht_slidebox_info h2 {
   font-size: 62px;
   text-transform: capitalize;
   margin-bottom: 15px;
 }
+
 .ht_slidebox_info p {
   font-size: 20px;
   margin-bottom: 50px;
 }
+
 .ht_slider_wrap {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .ht_about_wrap {
   display: flex;
   width: 100%;
   padding: 80px 0;
 }
+
 .ht_playicon {
   cursor: pointer;
 }
+
 .ht_btngrp {
   display: flex;
   align-items: center;
   column-gap: 30px;
 }
+
 .ht_aboutbox_info ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
 }
+
 .ht_aboutbox_info ul li {
   width: 50%;
   display: flex;
   margin-bottom: 20px;
   align-items: center;
 }
+
 .ht_aboutbox_info ul li p {
   margin-bottom: 0;
   margin-left: 10px;
 }
+
 .ht_aboutbox_info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .ht_aboutbox_info .ht_btn {
   margin-top: 30px;
 }
+
 .ht_icon_box {
   display: flex;
 }
@@ -362,11 +409,10 @@ body:hover {
 .ht_icon_box_icons h3 {
   font-size: 18px;
   font-weight: 500;
-  margin: 22px 12px;
+  margin: 11px 12px;
 }
 
-.ht_icon_box_icons {
-}
+.ht_icon_box_icons {}
 
 .ht_features {
   background-color: #0b163f !important;
@@ -383,10 +429,45 @@ body:hover {
   margin: 0 auto;
   margin-bottom: 15px;
 }
+
 .ht_about_wrap .ht_features p {
   color: #d9d9d9;
   width: 657px;
   margin: 0 auto;
 }
 
+.ht_features_tabs {
+  margin: 25px 283px;
 
+}
+
+
+.ht_features_right{
+  margin: auto;
+}
+
+.ht_features_right h2{
+  font-size: 34px;
+  color: #fff;
+}
+
+.ht_features_right p {
+  font-size: 18px;
+  color: #d9d9d9;
+  
+}
+
+.ht_features_right_all{
+  margin: auto;
+}
+
+.ht_features_right ul {
+  color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.ht_features_right li {
+  display: flex;
+  flex-direction: row;
+}
