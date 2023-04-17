@@ -254,7 +254,8 @@ body:hover {
   justify-content: center;
 }
 
-.ht_menu li {}
+.ht_menu li {
+}
 
 .ht_menu li a {
   text-transform: uppercase;
@@ -311,7 +312,8 @@ body:hover {
   justify-content: center;
 }
 
-.ht_slidebox>img {}
+.ht_slidebox > img {
+}
 
 .ht_slidebox_info {
   display: flex;
@@ -322,7 +324,7 @@ body:hover {
   align-items: flex-start;
 }
 
-.ht_slidebox_info>img {
+.ht_slidebox_info > img {
   border-radius: 60px 10px;
 }
 
@@ -412,7 +414,8 @@ body:hover {
   margin: 11px 12px;
 }
 
-.ht_icon_box_icons {}
+.ht_icon_box_icons {
+}
 
 .ht_features {
   background-color: #0b163f !important;
@@ -438,13 +441,16 @@ body:hover {
 
 .ht_features_tabs {
   margin: 25px 283px;
-
 }
-
 
 .ht_features_right {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
 }
+
 
 .ht_features_right h2 {
   font-size: 34px;
@@ -454,7 +460,6 @@ body:hover {
 .ht_features_right p {
   font-size: 18px;
   color: #d9d9d9;
-
 }
 
 .ht_features_right_all {
@@ -465,17 +470,28 @@ body:hover {
   color: #d9d9d9;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .ht_features_right li {
   display: flex;
-  /* flex-direction: row; */
-  width: 50%;
   margin-bottom: 20px;
   align-items: center;
-  
 }
 
 .ht_features_right ul li p {
   margin: 4px 10px;
 }
+
+.ht_features_navTabs {
+  display: flex;
+  justify-content: center;
+}
+
+.ht_features_navTabs button {
+  margin: auto;
+}
+
+/* .ht_features_navTabs button i {
+  font-size: 24px;
+} */
