@@ -254,8 +254,7 @@ body:hover {
   justify-content: center;
 }
 
-.ht_menu li {
-}
+.ht_menu li {}
 
 .ht_menu li a {
   text-transform: uppercase;
@@ -312,8 +311,7 @@ body:hover {
   justify-content: center;
 }
 
-.ht_slidebox > img {
-}
+.ht_slidebox>img {}
 
 .ht_slidebox_info {
   display: flex;
@@ -324,7 +322,7 @@ body:hover {
   align-items: flex-start;
 }
 
-.ht_slidebox_info > img {
+.ht_slidebox_info>img {
   border-radius: 60px 10px;
 }
 
@@ -415,8 +413,7 @@ body:hover {
   margin: 11px 12px;
 }
 
-.ht_icon_box_icons {
-}
+.ht_icon_box_icons {}
 
 .ht_features {
   background-color: #0b163f !important;
@@ -597,15 +594,18 @@ body:hover {
   padding: 30px 0;
   color: #333;
 }
+
 .section .top-side {
   text-align: center;
 }
+
 .section .top-side .title {
   font-weight: 500;
   font-size: 30px;
   color: #888;
   display: inline-block;
 }
+
 .section .top-side .title:after {
   content: "";
   display: block;
@@ -613,6 +613,7 @@ body:hover {
   border-bottom: 1px solid #494949;
   margin: 2px auto;
 }
+
 /* .section .top-side h2 {
   font-weight: 700;
 } */
@@ -620,9 +621,11 @@ body:hover {
   text-align: center;
   margin-top: 10px;
 }
+
 .section.portfolio .filters ul {
   padding: 0;
 }
+
 .section.portfolio .filters ul li {
   list-style: none;
   display: inline-block;
@@ -636,6 +639,7 @@ body:hover {
   margin: 5px;
   letter-spacing: 1px;
 }
+
 .section.portfolio .filters ul li:after {
   content: "";
   display: block;
@@ -645,26 +649,32 @@ body:hover {
   background: #333;
   transition: width 350ms ease-out;
 }
+
 .section.portfolio .filters ul li:hover:after {
   width: calc(100% - 60px);
   transition: width 350ms ease-out;
 }
+
 .section.portfolio .filters ul li.active:after {
   width: calc(100% - 60px);
 }
+
 .section.portfolio .filters-content {
   margin-top: 50px;
 }
+
 .section.portfolio .filters-content .show {
   opacity: 1;
   visibility: visible;
   transition: all 350ms;
 }
+
 .section.portfolio .filters-content .hide {
   opacity: 0;
   visibility: hidden;
   transition: all 350ms;
 }
+
 .section.portfolio .filters-content .item {
   text-align: center;
   /* cursor: pointer; */
@@ -673,10 +683,12 @@ body:hover {
   /* border: 2px solid blue; */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
 .section.portfolio .filters-content .item .p-inner {
   padding: 2px 30px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
 .section.portfolio .filters-content .item .p-inner h5 {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -685,6 +697,7 @@ body:hover {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 .section.portfolio .filters-content .item .p-inner .cat {
   font-size: 16px;
   margin: 0;
@@ -694,14 +707,17 @@ body:hover {
   color: #888;
   letter-spacing: 0.5px;
 }
+
 .section.portfolio .filters-content .item img {
   width: 100%;
   /* margin-bottom: 2px; */
 }
+
 .after-click {
   color: #87ceeb;
   font-weight: bold;
 }
+
 .project-view a {
   text-decoration: none;
   font-size: 16px;
@@ -728,4 +744,37 @@ body:hover {
 .project-view a:hover {
   color: #c0c0c0;
 }
+
 /* end of the portfolio page styling   */
+
+.ht_brand_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.ht_brand_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ht_brand_header h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  font-family: Poppins, sans-serif;
+  line-height: 1.2;
+  color: #0b163f;
+}
+
+.ht_brand_header p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.ht_brand_logo_img ul{
+  display: flex;
+  justify-content: space-between;
+}
