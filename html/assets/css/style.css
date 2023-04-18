@@ -1010,6 +1010,18 @@ body:hover {
   color: #fff !important;
 }
 
+.active_subscription .pricing_info_features {
+  color: #fff !important;
+}
+
+.active_subscription .ht_pricing_header h4 {
+  color: #fff !important;
+}
+
+.active_subscription .ht_pricing_header h4 span {
+  color: #fff !important;
+}
+
 .ht_subscription_header {
   padding: 120px 0px;
 }
