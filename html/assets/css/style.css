@@ -925,3 +925,87 @@ body:hover {
   box-shadow: 0 0.125rem 0.3rem -0.0625rem #0c080008,
     0 0.275rem 0.75rem -0.0625rem #0c08000f !important;
 }
+
+.ht_subscription_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ht_subscription_header h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  line-height: 1.2;
+  color: #0b163f;
+}
+
+.ht_subscription_header p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.ht_subscription_body .ht_pricing_header {
+  padding-bottom: 32px;
+  border-bottom: 1px dashed #c0c0c5;
+}
+
+.ht_subscription_body .ht_pricing_header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: rgb(23, 92, 255);
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.ht_subscription_body .ht_pricing_header h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+}
+
+.ht_subscription_body .ht_pricing_header h4 span {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-left: 5px;
+  color: #575757;
+}
+
+.pricing_info {
+  margin: 35px 0px 0px 0px;
+}
+.pricing_info .pricing_info_features {
+  color: #575757;
+}
+
+.pricing_info .pricing_info_features li {
+  font-size: 15px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.ht_subscription_body .pricing_full {
+  box-shadow: 0 5px 20px #d2d2f580;
+  transition: transform 0.3s ease;
+  border-radius: 1rem !important;
+  margin-bottom: 0 !important;
+  background-color: rgba(255, 255, 255) !important;
+  opacity: 1;
+  padding: 3rem !important;
+}
+
+.pricing_info_features li span {
+  padding-left: 10px;
+}
+
+.ht_subscription_body .active_subscription {
+  transition: transform 0.3s ease;
+  background: linear-gradient(90deg, #071c4d, #002d97) !important;
+  border-radius: 1rem !important;
+  color: #fff !important;
+}
