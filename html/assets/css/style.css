@@ -781,7 +781,7 @@ body:hover {
   padding: 120px 0;
 }
 
-.ht_brand_logo p{
+.ht_brand_logo p {
   padding: 20px 0;
 }
 
@@ -801,15 +801,127 @@ body:hover {
   margin: 0 24px 0 0;
 }
 
-
-.ht_testimonial{
+.ht_testimonial {
   display: flex;
   flex-direction: column;
+  background-color: #f8f9fa !important;
+  padding: 120px 0;
 }
 
-.ht_testimonial_header{
+.ht_testimonial_header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+/* testimonial */
+
+/*Обнуление*/
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 50px 10px;
+  }
+}
+
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    padding: 0px 40px;
+  }
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-left.png") 0
+    0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png") 0
+    0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.slider__item {
+  padding: 0px 15px;
+}
+.slider__item img {
+  max-width: 100%;
+}
+
+/* testimonial end*/
+
+.ht_testimonial .slider__item {
+  display: flex;
+  flex-direction: column;
+  color: #575757;
+}
+
+.ht_testimonial .slider__item .author_img img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100% !important;
+}
+
+.ht_testimonial .slider__item .author_info {
+  display: flex;
+}
+
+.ht_testimonial .author_info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.ht_testimonial .wrapper .slider__item {
+  border-radius: 1rem !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 0.125rem 0.3rem -0.0625rem #0c080008,
+    0 0.275rem 0.75rem -0.0625rem #0c08000f !important;
 }

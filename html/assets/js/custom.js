@@ -57,32 +57,33 @@ Version: 1.0.0
 
         // filter end
 
+        // testimonial
 
-        $('.ht_testimonial_slider').slick({
-            centerMode: true,
-            centerPadding: '60px',
+        $(".slider").slick({
+            arrows: true,
+            dots: false,
             slidesToShow: 3,
+            autoplay: true ,
+            speed: 1000,
+            autoplaySpeed: 1000,
             responsive: [
                 {
                     breakpoint: 768,
                     settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 3
+                        slidesToShow: 2
                     }
                 },
                 {
-                    breakpoint: 480,
+                    breakpoint: 550,
                     settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
                         slidesToShow: 1
                     }
                 }
             ]
         });
+        // testimonial end
+
+
 
     });
 })();
