@@ -1009,3 +1009,7 @@ body:hover {
   border-radius: 1rem !important;
   color: #fff !important;
 }
+
+.ht_subscription_header {
+  padding: 120px 0px;
+}
