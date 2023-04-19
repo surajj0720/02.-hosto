@@ -1139,6 +1139,12 @@ body:hover {
   overflow: hidden;
   /* display: flex; */
   /* flex-direction: column; */
+}
+
+.ht_blog .blog_content .row .all {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
@@ -1147,12 +1153,6 @@ body:hover {
   transition: all 0.3s ease-in-out;
   border-radius: 1rem !important;
   margin-bottom: 0 !important;
-}
-
-.ht_blog .blog_content .row .all {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .ht_blog .blog_content .row a {
