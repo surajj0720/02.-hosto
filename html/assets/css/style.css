@@ -1094,10 +1094,15 @@ body:hover {
   font-weight: 400;
 }
 
+.ht_blog {
+  padding: 120px 0px;
+}
+
 .ht_blog .blog_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0px;
 }
 
 .ht_blog .blog_header .blog_left {
@@ -1214,4 +1219,12 @@ body:hover {
   margin: 0;
   border: 0;
   box-sizing: border-box;
+}
+
+.ht_blog .blog_content .bg-primary-soft {
+  background-color: #175cff33 !important;
+}
+
+.ht_blog .blog_content .bg-danger-soft {
+  background-color: #f2576733 !important;
 }
