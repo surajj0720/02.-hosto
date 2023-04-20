@@ -245,6 +245,17 @@ body:hover {
 .header {
   box-shadow: 0 10px 30px #0000001a;
   padding: 15px 0;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.header.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 /*---------- Menu CSS Start ----------*/
@@ -1228,4 +1239,32 @@ body:hover {
 
 .ht_blog .blog_content .bg-danger-soft {
   background-color: #f2576733 !important;
+}
+
+.ht_footer {
+  background: linear-gradient(90deg, #071c4d, #002d97) !important;
+  padding: 120px 0;
+  border-top: 1px solid rgba(248, 249, 250, 0.05);
+}
+
+.ht_footer .ht_footer_left {
+}
+
+.ht_footer .ht_footer_left p {
+  opacity: 1;
+  color: #d9d9d9;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.ht_footer form .ht_footer_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ht_footer form .ht_footer_form input[type="text"] {
+  border-color: #e2e8f0;
+  border: 2px solid rgba(11, 22, 63, 0.12);
+  margin-right: 0.5rem !important;
 }

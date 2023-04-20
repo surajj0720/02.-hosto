@@ -10,6 +10,17 @@ Version: 1.0.0
     jQuery(document).ready(function ($) {
         var $this = $(window);
 
+         // Fixed Header
+         $(window).scroll(function(){
+            if ($(window).scrollTop() >= 200) {
+                $('.header').addClass('fixed');
+            }
+            else {
+                $('.header').removeClass('fixed');
+            }
+        });
+
+
         // Home page slider js
         $('.ht_home_slider').owlCarousel({
             loop: true,
