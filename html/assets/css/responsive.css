@@ -1,6 +1,15 @@
 /*---- Responsive CSS Start ----*/
 @media (max-width: 1440px) {}
 @media (max-width: 1366px) {}
+@media (max-width: 1199px) {
+    .ht_head_btns {
+        column-gap: 10px;
+    }
+    .ht_btn, .ht_btn:focus {
+        padding: 0px 10px;
+        min-width: 110px;
+    }
+}
 @media (max-width: 1024px) {}
 @media (max-width: 768px) {}
 @media (max-width: 767px) {}
